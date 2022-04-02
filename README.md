@@ -6,6 +6,6 @@
 
 ### npm run-script build
 1. O--->(eg:- O/ or O/404)indicates it is a static page without data.
-2. O--->O with filled(eg:- 0/users), indicates it is a static page with external data using ###getStaticProps function.
+2. O--->O with filled(eg:- 0/users), indicates it is a static page with external data using getStaticProps function.
  
 ![nextbuild](https://user-images.githubusercontent.com/77038785/161389897-34a0a2bb-b9df-4ece-a9a5-3d69ff164c67.png)
