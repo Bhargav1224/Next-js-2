@@ -1,1 +1,1 @@
-### Stactic generation with data
+### Stactic generation with data and pre-rendering
