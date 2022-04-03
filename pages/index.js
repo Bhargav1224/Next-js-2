@@ -11,6 +11,11 @@ export default function Home() {
       <Link href="/users">
         <a>Users</a>
       </Link>
+      <br />
+      <br />
+      <Link href="/posts">
+        <a>Posts</a>
+      </Link>
     </div>
   );
 }
