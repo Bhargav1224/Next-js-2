@@ -52,3 +52,7 @@ fallback is mandatory to have getStaticPaths function, it accepts 3-values i.e; 
 
 ![ISG](https://user-images.githubusercontent.com/77038785/161420167-58eb9953-a582-47eb-a8a2-9de162b0f156.png)
 
+![stale-revalidate](https://user-images.githubusercontent.com/77038785/161424919-4ef30e23-feb3-4c01-9d5e-bad5f3c8553e.png)
+
+![Regeneration](https://user-images.githubusercontent.com/77038785/161424943-456e453c-f07e-4023-9042-0c63cb655931.png)
+
