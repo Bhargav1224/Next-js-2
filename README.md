@@ -9,3 +9,6 @@
 2. O--->O with filled(eg:- 0/users), indicates it is a static page with external data using getStaticProps function.
  
 ![nextbuild](https://user-images.githubusercontent.com/77038785/161389897-34a0a2bb-b9df-4ece-a9a5-3d69ff164c67.png)
+
+### master-detail-UI-pattern
+![master-detail-paaters](https://user-images.githubusercontent.com/77038785/161411668-f1d5d09d-3bd0-4c07-a138-9a7a5c58592e.png)
