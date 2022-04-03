@@ -30,3 +30,7 @@ fallback is mandatory to have getStaticPaths function, it accepts 3-values i.e; 
 ### fallback: true
 ![fallback-true-1](https://user-images.githubusercontent.com/77038785/161414291-6b86a5ba-5fab-45c7-9ca3-5bc707242579.png)
 
+![fallback-true-2](https://user-images.githubusercontent.com/77038785/161415507-18a707ac-a909-4bd0-b3c8-231e9bb3de02.png)
+
+
+
