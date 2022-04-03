@@ -38,6 +38,12 @@ fallback is mandatory to have getStaticPaths function, it accepts 3-values i.e; 
 
 ![fallback-blocing-2](https://user-images.githubusercontent.com/77038785/161416427-9b678e27-df7e-40e5-8f84-88a6e8de871c.png)
 
+### SSG-ISSUES ( Incremental Static Regeneration )
 
+![SSG-issues](https://user-images.githubusercontent.com/77038785/161416757-ea3f4222-4300-4493-9489-fabe953aa51b.png)
 
+![SSG-issues-2](https://user-images.githubusercontent.com/77038785/161416764-0cec4ca7-bcbe-4728-9851-0e8e9ca911c5.png)
 
+![SSG-issue-3](https://user-images.githubusercontent.com/77038785/161416765-c9677c2a-5d70-448d-9c2d-e8cd9d47d22f.png)
+
+![SSG-issues-4](https://user-images.githubusercontent.com/77038785/161416770-7d9578bd-873c-4c86-a5bf-74352c59299d.png)
