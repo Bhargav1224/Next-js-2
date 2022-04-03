@@ -1,23 +1,4 @@
-import { useRouter } from "next/router";
-
 function Post({ post }) {
-  //fallback: true
-  const router = useRouter();
-
-  if (router.isFallback) {
-    return <h1>Loading...</h1>;
-  }
-  // Above router.isFallback is used to avoid the error while building the app (if fallback:true)
-
-  // this is required because if we visits other routes eg:- "/posts/4" which is not included in the getStaticPaths, then it will render Loading... text and it rendered the required data (i.e 4th id post).
-
-  // where as fallback:false shows 404 page
-
-  // in background 4th id post html and json file will be generated in the build folder. you can see this in .next/server/pages/posts or you can observe in the network tab, json file will be generated and file gets rendered.
-
-  // whenever user visits to next page/route (eg:- "/posts/4" which is not included in the getStaticPaths), , 1st fallback is loaded and we will see Loading text and  then json file will be generated in the network tab and then full UI will be rendered. if you refresh the page without empty cache and reload, in the network tab you can see the related text loaded in the UI.
-
-  // where as fallback:false shows direct UI.
 
   return (
     <>
@@ -61,12 +42,14 @@ export async function getStaticPaths() {
       },
     ],
     // paths,
-    fallback: true, // will discuss later
+    fallback: 'blocking', // will discuss later
   };
 }
 
 // fallback:false ;
 // it is mandatory to have getStaticPaths function, it accepts 3-values i.e; true, false, blocking
+// fallback: 'blocking'
+//prefers if the data want to show little slow
 
 export async function getStaticProps(context) {
   const { params } = context;
