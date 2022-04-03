@@ -16,3 +16,13 @@ If user navigates from one page to other via Links , the particular json files w
 
 ### master-detail-UI-pattern
 ![master-detail-paaters](https://user-images.githubusercontent.com/77038785/161411668-f1d5d09d-3bd0-4c07-a138-9a7a5c58592e.png)
+
+### FallBack(true,false,blocking)
+fallback is mandatory to have getStaticPaths function, it accepts 3-values i.e; true, false, blocking
+### fallback: false
+
+![fallback-0](https://user-images.githubusercontent.com/77038785/161413349-b353d659-2965-47ca-9b5e-c82d3cbdec7d.png)
+
+![fallback1](https://user-images.githubusercontent.com/77038785/161413419-5dea61de-4adc-41ba-b2bb-fadd73b54ab0.png)
+
+![fallback-2](https://user-images.githubusercontent.com/77038785/161413367-e58495c9-6679-44b7-9f1e-8aa0f26b1700.png)
