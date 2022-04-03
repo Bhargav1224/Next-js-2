@@ -11,6 +11,10 @@ function Post({ post }) {
 }
 export default Post;
 
+// this function helps to understand the next js what data we need to fetch from post based on the ID'S
+// next js know that there is a different kind of data for different id's
+// here the static page is same for all the id's, but the data will be different. so we need to give the exact paths to understand the next js that these id are static kind of ...
+
 export async function getStaticPaths() {
   return {
     paths: [
