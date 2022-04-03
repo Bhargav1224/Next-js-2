@@ -47,3 +47,8 @@ fallback is mandatory to have getStaticPaths function, it accepts 3-values i.e; 
 ![SSG-issue-3](https://user-images.githubusercontent.com/77038785/161416765-c9677c2a-5d70-448d-9c2d-e8cd9d47d22f.png)
 
 ![SSG-issues-4](https://user-images.githubusercontent.com/77038785/161416770-7d9578bd-873c-4c86-a5bf-74352c59299d.png)
+
+### ISG (steal data)
+
+![ISG](https://user-images.githubusercontent.com/77038785/161420167-58eb9953-a582-47eb-a8a2-9de162b0f156.png)
+
